@@ -3,7 +3,6 @@ function reverse(str){
         return ""
     }
     else{
-        console.log(str.substr(1));
         return reverse(str.substr(1))+str.charAt(0);
     }
 }

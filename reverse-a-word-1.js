@@ -1,4 +1,4 @@
-//reverse a word with an array 
+// reverse a word with an array with typechecking and 
 function reverseString(str) {
   var rtnString = [];
   if (!str || typeof str != 'string' || str.length < 2) {
